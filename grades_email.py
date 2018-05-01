@@ -31,11 +31,11 @@
 # Template code for your script:
 
 names = input("Enter names separated by commas: ").title().split(",")
-print(names)
+print(type(names))
 assignments = input("Enter assignments separated by commas: ").split(",")
-print(assignments)
+print(type(assignments))
 grades = input("Enter grades separated by commas: ").split(",")
-print(grades)
+print(type(grades))
 
 message = "Hi {},\n\nThis is a reminder that you have {} assignments left to \
 submit before you can graduate. You're current grade is {} and can increase \
